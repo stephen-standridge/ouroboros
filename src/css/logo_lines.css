@@ -6,39 +6,51 @@
 
 	/*//shared presets//*/
 	
-		.logolinefront{
+		.logo__linefront{
 			stroke-width: 1;
 			opacity: .6;
 		}
-		.logolinemiddle{
+		.logo__linemiddle{
 			stroke-width: 1;
 			opacity: .3;
 		}
-		.logolinebottom{
+		.logo__linebottom{
 			stroke-width: 1;
 			opacity: .3;
 		}
-		.logoline{
+		.logo__line{
 			opacity: .6;
 			stroke-width: 1 ;
 		}
 		#linework {
 			opacity:1;
 		}
-
+/*
+ /////////////////////////////////
+ ///////////transitions///////////
+ /////////////////////////////////
+								  */		
+	.logo__line{
+		transition: opacity 0.4s ease-in;
+		-ms-transition: opacity 0.4s ease-in;-moz-transition: opacity 0.4s ease-in;
+		-webkit-transition: opacity 0.4s ease-in;
+		transition: stroke 0.3s ease-in;
+		-ms-transition: stroke 0.3s ease-in;-moz-transition: stroke 0.3s ease-in;
+		-webkit-transition: stroke 0.3s ease-in;
+	}	
 
 	/*//color presets//*/
 	
-		.logoline.purple, .logolinefront.purple, .logolinemiddle.purple, .logolinebottom.purple, .compassline.purple{
+		.logo__line.purple, .logo__linefront.purple, .logo__linemiddle.purple, .logo__linebottom.purple, .compassline.purple{
 			fill: none;
 			stroke: #A745BF;
 		}
 		
-		.logoline.green, .logolinefront.green, .logolinemiddle.green, .logolinebottom.green, .compassline.green{
+		.logo__line.green, .logo__linefront.green, .logo__linemiddle.green, .logo__linebottom.green, .compassline.green{
 			fill:none;
 			stroke:#52BC46;
 		}
-		.logoline.white, .logolinefront.white, .logolinemiddle.white, .logolinebottom.white, .compassline.white{
+		.logo__line.white, .logo__linefront.white, .logo__linemiddle.white, .logo__linebottom.white, .compassline.white{
 			fill: none;
 			/*stroke: #9ea3a9 !important;*/
 			stroke: #52BC46;
@@ -48,52 +60,52 @@
 		}
 	
 	/*//positional presets//*/
-		.logoline.green{
+		.logo__line.green{
 			stroke-dasharray: 20,15;
 			stroke-dashoffset: 15;
 		}
-		.logolinefront.green{
+		.logo__linefront.green{
 			stroke-dasharray: 20,15;
 		}
-		.logolinemiddle.green{
+		.logo__linemiddle.green{
 			stroke-dasharray: 15,10;
 			stroke-dashoffset: 23;
 		}
-		.logolinebottom.green{
+		.logo__linebottom.green{
 			stroke-dasharray: 15,10;
 			stroke-dashoffset: 27;
 		}
 		
 		
-		.logoline.purple{
+		.logo__line.purple{
 			stroke-dasharray: 17,8;
 			stroke-dashoffset: 13;
 		}
-		.logolinefront.purple{
+		.logo__linefront.purple{
 			stroke-dasharray: 19,6;
 		}
-		.logolinemiddle.purple{
+		.logo__linemiddle.purple{
 			stroke-dasharray: 26,8;
 			stroke-dashoffset: 7;
 		}
-		.logolinebottom.purple{
+		.logo__linebottom.purple{
 			stroke-dasharray: 26,12;
 			stroke-dashoffset: 14;
 		}
 
 
-		.logoline.white{
+		.logo__line.white{
 			stroke-dasharray: 17,8;
 			stroke-dashoffset: 13;
 		}
-		.logolinefront.white{
+		.logo__linefront.white{
 			stroke-dasharray: 22,9;
 		}
-		.logolinemiddle.white{
+		.logo__linemiddle.white{
 			stroke-dasharray: 12,10;
 			stroke-dashoffset: 8;
 		}
-		.logolinebottom.white{
+		.logo__linebottom.white{
 			stroke-dasharray: 20,12;
 			stroke-dashoffset: 11;
 		}	
@@ -120,7 +132,7 @@
 								  */
 								  
 								  
-	.logoline, .logolinefront, .logolinemiddle, .logolinebottom{
+	.logo__line, .logo__linefront, .logo__linemiddle, .logo__linebottom{
 		transition: stroke-dasharray 0.4s ease-in;-ms-transition: stroke-dasharray 0.4s ease-in;-moz-transition: stroke-dasharray 0.4s ease-in;-webkit-transition: stroke-dasharray 0.4s ease-in;
 		transition: stroke-dashoffset 0.3s ease-in;-ms-transition: stroke-dashoffset 0.3s ease-in;-moz-transition: stroke-dashoffset 0.3s ease-in;-webkit-transition: stroke-dashoffset 0.3s ease-in;
 	}	

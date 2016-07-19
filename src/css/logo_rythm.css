@@ -4,47 +4,47 @@
  /////////////////////////////////
 								  */
 								  
-	.rythm {
+	.logo__rythm {
 		transition: stop-color 0.4s ease-in;-ms-transition: stop-color 0.4s ease-in;-moz-transition: stop-color 0.4s ease-in;-webkit-transition: stop-color 0.4s ease-in;
 	}
 			
 	/*//the heartbeat//*/
 	
-		.rythm.center.white{
+		.logo__rythm.center.white{
 			/*stop-color:#FFFFFF;	*/
 			stop-color:#52BC46;
 		}
-		.rythm.midway.white{
+		.logo__rythm.midway.white{
 			/*stop-color:#FFFFFF;*/
 			stop-color:#52BC46;
 			stop-opacity: .3;
 		}
-		.rythm.outside.white{
+		.logo__rythm.outside.white{
 			/*stop-color:#FFFFFF;*/
 			stop-color:#52BC46;
 			stop-opacity: .2;
 		}
-		.rythm.center.green{
+		.logo__rythm.center.green{
 			stop-color:#52BC46;
 			stop-opacity: .2;	
 		}
-		.rythm.midway.green{
+		.logo__rythm.midway.green{
 			stop-color:#52BC46;
 			stop-opacity: .3;
 		}
-		.rythm.outside.green{
+		.logo__rythm.outside.green{
 			stop-color:#52BC46;
 			stop-opacity: .2;
 		}
-		.rythm.outside.purple{
+		.logo__rythm.outside.purple{
 			stop-color:#A745BF;
 			stop-opacity: .2;
 		}
-		.rythm.midway.purple{
+		.logo__rythm.midway.purple{
 			stop-color:#A745BF;
 			stop-opacity: .3;
 		}
-		.rythm.center.purple{
+		.logo__rythm.center.purple{
 			stop-color:#A745BF;
 			stop-opacity: .2;
 		}
@@ -59,13 +59,13 @@
 		
 		/*//logo gradient//*/
 		
-		.rythm.center.white, .rythm.center.green, .rythm.center.purple  {
-			animation:rythm_center 4s linear infinite;-moz-animation:rythm_center 4s linear infinites; -webkit-animation:rythm_center 4s linear infinite; -o-animation:rythm_center 4s linear infinite; 
+		.logo__rythm.center.white, .logo__rythm.center.green, .logo__rythm.center.purple  {
+			animation:logo__rythm_center 4s linear infinite;-moz-animation:logo__rythm_center 4s linear infinites; -webkit-animation:logo__rythm_center 4s linear infinite; -o-animation:logo__rythm_center 4s linear infinite; 
 		}
-		.rythm.midway.white, .rythm.midway.green, .rythm.midway.purple  {
-			animation:rythm_midway 4s linear infinite;-moz-animation:rythm_midway 4s linear infinites; -webkit-animation:rythm_midway 4s linear infinite; -o-animation:rythm_midway 4s linear infinite; 
+		.logo__rythm.midway.white, .logo__rythm.midway.green, .logo__rythm.midway.purple  {
+			animation:logo__rythm_midway 4s linear infinite;-moz-animation:logo__rythm_midway 4s linear infinites; -webkit-animation:logo__rythm_midway 4s linear infinite; -o-animation:logo__rythm_midway 4s linear infinite; 
 		}
-		.rythm.outside.white, .rythm.outside.green, .rythm.outside.purple  {
+		.logo__rythm.outside.white, .logo__rythm.outside.green, .logo__rythm.outside.purple  {
 			animation:rythm_outside 4s linear infinite;-moz-animation:rythm_outside 4s linear infinites; -webkit-animation:rythm_outside 4s linear infinite; -o-animation:rythm_outside 4s linear infinite; 
 		}
 		

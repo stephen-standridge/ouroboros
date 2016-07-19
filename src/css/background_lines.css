@@ -3,18 +3,81 @@
  /////default dynamic styles///////
  /////////////////////////////////
 								  */	
-.background_line.inner.green {opacity: .8; fill:none;stroke:#52BC46;stroke-miterlimit:10; stroke-width: .7; background-color: transparent;}
-.background_line.middle.green {opacity: .6; fill:none;stroke:#52BC46;stroke-miterlimit:10; stroke-width: .7; background-color: transparent;}
-.background_line.outer.green {opacity: .4; fill:none;stroke:#52BC46;stroke-miterlimit:10; stroke-width: .7; background-color: transparent; }
+	.background__line.inner.green {
+		opacity: 0.8; 
+		fill:none;
+		stroke:#52BC46;
+		stroke-miterlimit:10; 
+		stroke-width: 0.7; 
+		background-color: transparent;
+	}
+	.background__line.middle.green {
+		opacity: 0.6; 
+		fill:none;
+		stroke:#52BC46;
+		stroke-miterlimit:10;
+		stroke-width: 0.7; background-color: transparent;
+	}
+
+	.background__line.outer.green {
+		opacity: 0.4; 
+		fill:none;
+		stroke:#52BC46;
+		stroke-miterlimit:10;
+		stroke-width: 0.7; 
+		background-color: transparent; 
+	}
 
 
-.background_line.inner.purple{opacity: .8; fill:none;stroke:#A745BF;stroke-miterlimit:10; stroke-width: .7; background-color: transparent;}
-.background_line.middle.purple{opacity: .6; fill:none;stroke:#A745BF;stroke-miterlimit:10; stroke-width: .7; background-color: transparent;}
-.background_line.outer.purple {opacity: .4; fill:none;stroke:#A745BF;stroke-miterlimit:10; stroke-width: .7; background-color: transparent; }
+	.background__line.inner.purple{
+		opacity: 0.8; 
+		fill:none;
+		stroke:#A745BF;
+		stroke-miterlimit:10;
+		stroke-width: 0.7; 
+		background-color: transparent;
+	}
+	.background__line.middle.purple{
+		opacity: 0.6; 
+		fill:none;
+		stroke:#A745BF;
+		stroke-miterlimit:10;
+		stroke-width: 0.7; 
+		background-color: transparent;
+	}
+	.background__line.outer.purple {
+		opacity: 0.4; 
+		fill:none;
+		stroke:#A745BF;
+		stroke-miterlimit:10;
+		stroke-width: 0.7; 
+		background-color: transparent; 
+	}
 
-.background_line.inner.white {opacity: 1 !important; fill:none;stroke:#c1c7d0 !important; stroke-miterlimit:10; stroke-width: .5 !important; background-color: transparent;}
-.background_line.middle.white {opacity: 1 !important; fill:none;stroke:#9ea3a9 !important;stroke-miterlimit:10; stroke-width: .5 !important; background-color: transparent;}
-.background_line.outer.white {opacity: 1 !important; fill:none;stroke:#5b5d5f !important;stroke-miterlimit:10; stroke-width: .5 !important; background-color: transparent; }
+	.background__line.inner.white {
+		opacity: 1 !important; 
+		fill:none;
+		stroke:#c1c7d0 !important; 
+		stroke-miterlimit:10;
+		stroke-width: 0.5 !important; 
+		background-color: transparent;
+	}
+	.background__line.middle.white {
+		opacity: 1 !important; 
+		fill:none;
+		stroke: #9ea3a9 !important;
+		stroke-miterlimit:10;
+		stroke-width: 0.5 !important; 
+		background-color: transparent;
+	}
+	.background__line.outer.white {
+		opacity: 1 !important; 
+		fill:none;
+		stroke:#5b5d5f !important;
+		stroke-miterlimit:10;
+		stroke-width: 0.5 !important; 
+		background-color: transparent; 
+	}
 
 
 /*
@@ -27,27 +90,45 @@
 			
 		/*//background lines//*/
 						  
-		.background_line.white.outer {
-			animation:backgroundlines_white_outer 10s linear infinite;-moz-animation:backgroundlines_white_outer 10s linear infinites; -webkit-animation:backgroundlines_white_outer 10s linear infinite; -o-animation:backgroundlines_white_outer 10s linear infinite; 
-		}
-		.background_line.white.middle {
-			animation:backgroundlines_white_middle 10s linear infinite;-moz-animation:backgroundlines_white_middle 10s linear infinite; -webkit-animation:backgroundlines_white_middle 10s linear infinite; -o-animation:backgroundlines_white_middle 10s linear infinite; 
-		}
-		.background_line.white.inner {
-			animation:backgroundlines_white_inner 10s linear infinite;-moz-animation:backgroundlines_white_inner 10s linear infinite; -webkit-animation:backgroundlines_white_inner 10s linear infinite; -o-animation:backgroundlines_white_inner 10s linear infinite; 
-		}
+	.background__line.white.outer {
+		animation:backgroundlines_white_outer 10s linear infinite;
+		-moz-animation:backgroundlines_white_outer 10s linear infinites; 
+		-webkit-animation:backgroundlines_white_outer 10s linear infinite;
+		-o-animation:backgroundlines_white_outer 10s linear infinite;
+	}
+	.background__line.white.middle {
+		animation:backgroundlines_white_middle 10s linear infinite;
+		-moz-animation:backgroundlines_white_middle 10s linear infinite;
+		-webkit-animation:backgroundlines_white_middle 10s linear infinite;
+		-o-animation:backgroundlines_white_middle 10s linear infinite;
+	}
+	.background__line.white.inner {
+		animation:backgroundlines_white_inner 10s linear infinite;
+		-moz-animation:backgroundlines_white_inner 10s linear infinite;
+		-webkit-animation:backgroundlines_white_inner 10s linear infinite;
+		-o-animation:backgroundlines_white_inner 10s linear infinite;
+	}
 
 	/*//background lines//*/
 		
-		.background_line.outer.green, .background_line.outer.purple {
-			animation:backgroundlines_outer_green 10s linear infinite;-moz-animation:backgroundlines_outer_green 10s linear infinites; -webkit-animation:backgroundlines_outer_green 10s linear infinite; -o-animation:backgroundlines_outer_green 10s linear infinite; 
-		}
-		.background_line.middle.green, .background_line.middle.purple {
-			animation:backgroundlines_middle_green 10s linear infinite;-moz-animation:backgroundlines_middle_green 10s linear infinite; -webkit-animation:backgroundlines_middle_green 10s linear infinite; -o-animation:backgroundlines_middle_green 10s linear infinite; 
-		}
-		.background_line.inner.green, .background_line.inner.purple {
-			animation:backgroundlines_inner_green 10s linear infinite;-moz-animation:backgroundlines_inner_green 10s linear infinite; -webkit-animation:backgroundlines_inner_green 10s linear infinite; -o-animation:backgroundlines_inner_green 10s linear infinite; 
-		}
+	.background__line.outer.green, .background__line.outer.purple {
+		animation:backgroundlines_outer_green 10s linear infinite;
+		-moz-animation:backgroundlines_outer_green 10s linear infinites; 
+		-webkit-animation:backgroundlines_outer_green 10s linear infinite;
+		-o-animation:backgroundlines_outer_green 10s linear infinite;
+	}
+	.background__line.middle.green, .background__line.middle.purple {
+		animation:backgroundlines_middle_green 10s linear infinite;
+		-moz-animation:backgroundlines_middle_green 10s linear infinite;
+		-webkit-animation:backgroundlines_middle_green 10s linear infinite;
+		-o-animation:backgroundlines_middle_green 10s linear infinite;
+	}
+	.background__line.inner.green, .background__line.inner.purple {
+		animation:backgroundlines_inner_green 10s linear infinite;
+		-moz-animation:backgroundlines_inner_green 10s linear infinite;
+		-webkit-animation:backgroundlines_inner_green 10s linear infinite;
+		-o-animation:backgroundlines_inner_green 10s linear infinite;
+	}
 
 
 /*
@@ -57,9 +138,13 @@
 								  */
 								  
 								  
-	.background_line.outer.green, .background_line.outer.purple, .background_line.middle.green, .background_line.middle.purple, background_line.inner.green, background_line.inner.purple, .logoline_green.green, .logoline.purple{
-		transition: opacity 0.4s ease-in;-ms-transition: opacity 0.4s ease-in;-moz-transition: opacity 0.4s ease-in;-webkit-transition: opacity 0.4s ease-in;
-		transition: stroke 0.3s ease-in;-ms-transition: stroke 0.3s ease-in;-moz-transition: stroke 0.3s ease-in;-webkit-transition: stroke 0.3s ease-in;
+	.background__line{
+		transition: opacity 0.4s ease-in;
+		-ms-transition: opacity 0.4s ease-in;-moz-transition: opacity 0.4s ease-in;
+		-webkit-transition: opacity 0.4s ease-in;
+		transition: stroke 0.3s ease-in;
+		-ms-transition: stroke 0.3s ease-in;-moz-transition: stroke 0.3s ease-in;
+		-webkit-transition: stroke 0.3s ease-in;
 	}	
 
 					/*
@@ -72,31 +157,31 @@
 	
 		/*//background lines//*/
 		
-		.background_line.inner:nth-child(1), .background_line.middle:nth-child(1),  .background_line.outer:nth-child(1),{
+		.background__line.inner:nth-child(1), .background__line.middle:nth-child(1),  .background__line.outer:nth-child(1),{
 			animation-delay:.5s;-webkit-animation-delay:.5s; -o-animation-delay:.5s;-moz-animation-delay:.5s;
 		}
-		.background_line.inner:nth-child(2), .background_line.middle:nth-child(2),  .background_line.outer:nth-child(2){
+		.background__line.inner:nth-child(2), .background__line.middle:nth-child(2),  .background__line.outer:nth-child(2){
 			animation-delay:1s;-webkit-animation-delay:1s; -o-animation-delay:1s;-moz-animation-delay:1s;
 		}
-		.background_line.inner:nth-child(3), .background_line.middle:nth-child(3),  .background_line.outer:nth-child(3){
+		.background__line.inner:nth-child(3), .background__line.middle:nth-child(3),  .background__line.outer:nth-child(3){
 			animation-delay:1.5s;-webkit-animation-delay:1.5s; -o-animation-delay:1.5s;-moz-animation-delay:1.5s;
 		}
-		.background_line.inner:nth-child(4), .background_line.middle:nth-child(4),  .background_line.outer:nth-child(4){
+		.background__line.inner:nth-child(4), .background__line.middle:nth-child(4),  .background__line.outer:nth-child(4){
 			animation-delay:2s;-webkit-animation-delay:2s; -o-animation-delay:2s;-moz-animation-delay:2s;
 		}
-		.background_line.inner:nth-child(5), .background_line.middle:nth-child(5),  .background_line.outer:nth-child(5){
+		.background__line.inner:nth-child(5), .background__line.middle:nth-child(5),  .background__line.outer:nth-child(5){
 			animation-delay:2.5s;-webkit-animation-delay:2.5s; -o-animation-delay:2.5s;-moz-animation-delay:2.5s;
 		}
-		.background_line.inner:nth-child(6), .background_line.middle:nth-child(6),  .background_line.outer:nth-child(6){
+		.background__line.inner:nth-child(6), .background__line.middle:nth-child(6),  .background__line.outer:nth-child(6){
 			animation-delay:3s;-webkit-animation-delay:3s; -o-animation-delay:3s;-moz-animation-delay:3s;
 		}
-		.background_line.inner:nth-child(7), .background_line.middle:nth-child(7),  .background_line.outer:nth-child(7){
+		.background__line.inner:nth-child(7), .background__line.middle:nth-child(7),  .background__line.outer:nth-child(7){
 			animation-delay:3.5s;-webkit-animation-delay:3.5s; -o-animation-delay:3.5s;-moz-animation-delay:3.5s;
 		}
-		.background_line.inner:nth-child(8), .background_line.middle:nth-child(8),  .background_line.outer:nth-child(8){
+		.background__line.inner:nth-child(8), .background__line.middle:nth-child(8),  .background__line.outer:nth-child(8){
 			animation-delay:4s;-webkit-animation-delay:4s; -o-animation-delay:4s;-moz-animation-delay:4s;
 		}
-		.background_line.inner:nth-child(9), .background_line.middle:nth-child(9), .background_line.outer:nth-child(9){
+		.background__line.inner:nth-child(9), .background__line.middle:nth-child(9), .background__line.outer:nth-child(9){
 			animation-delay:4.5s;-webkit-animation-delay:4.5s; -o-animation-delay:4.5s;-moz-animation-delay:4.5s;
 		}
 
