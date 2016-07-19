@@ -15,14 +15,20 @@ module.exports = {
       }) 
     },    
     {
-      test: /\.jsx?$/,
-      loaders: ['babel'],
-      include: path.join(__dirname, 'src')
+      test: /.jsx?$/,
+      loader: 'babel-loader',
+      exclude: /node_modules/,
+      query: {
+        presets: ['es2015', 'react']
+      }
     },
     {
-      test: /\.js?$/,
-      loaders: ['babel'],
-      include: path.join(__dirname, 'src')
+      test: /.js?$/,
+      loader: 'babel-loader',
+      exclude: /node_modules/,
+      query: {
+        presets: ['es2015']
+      }
     }]
   },
   resolve: {

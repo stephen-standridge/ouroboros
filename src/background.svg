@@ -8,7 +8,7 @@
 </style>
 <g>
 	<defs>
-		<rect id="SVGID_1_" x="56.7" y="29.1" width="318.8" height="667.9"/>
+		<rect className="background__clip" id="SVGID_1_" x="56.7" y="29.1" width="318.8" height="667.9"/>
 	</defs>
 	<clipPath id="SVGID_2_">
 		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>

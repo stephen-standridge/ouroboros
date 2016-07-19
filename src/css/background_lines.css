@@ -1,3 +1,25 @@
+.background__line{
+	clip-path:url(#SVGID_2_);
+	fill:none;
+	stroke:#9652A0;
+	stroke-width:0.5;
+	stroke-miterlimit:10;
+}
+.background__clip{
+	fill:none;
+	stroke:#9652A0;
+	stroke-miterlimit:10;
+}
+.background__box {
+	overflow:visible;
+}
+.background__border{
+	overflow:visible;
+	fill:none;
+	stroke:#9652A0;
+	stroke-width:1.5;
+	stroke-miterlimit:10;	
+}
 /*
  /////////////////////////////////
  /////default dynamic styles///////
