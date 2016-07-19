@@ -1,0 +1,95 @@
+/*
+/////////////////////////////////
+//////logo linework styles///////
+/////////////////////////////////
+*/	
+
+/*//shared presets//*/
+.ouroboros__fill{
+	fill:#FFFFFF;
+}
+.ouroboros__fill--none{
+	fill:none;
+}	
+.ouroboros__stroke--bold{
+	stroke:#9652A0;
+	stroke-width:1.5;
+	stroke-miterlimit:10;		
+}
+.ouroboros__stroke{
+	stroke:#9652A0;
+	stroke-width:1.0;
+	stroke-miterlimit:10;		
+}	
+.ouroboros__stroke--thin{
+	stroke:#9652A0;
+	stroke-width:0.5;
+	stroke-miterlimit:10;		
+}		
+
+/*
+/////////////////////////////////
+///////////transitions///////////
+/////////////////////////////////
+*/		
+
+.ouroboros__stroke{
+	transition: opacity 0.4s ease-in;
+	-ms-transition: opacity 0.4s ease-in;-moz-transition: opacity 0.4s ease-in;
+	-webkit-transition: opacity 0.4s ease-in;
+	transition: stroke 0.3s ease-in;
+	-ms-transition: stroke 0.3s ease-in;-moz-transition: stroke 0.3s ease-in;
+	-webkit-transition: stroke 0.3s ease-in;
+}	
+
+/*//color presets//*/
+
+.ouroboros__stroke.purple {
+	fill: none;
+	stroke: #A745BF;
+}
+
+.ouroboros__stroke.green {
+	fill:none;
+	stroke:#52BC46;
+}
+.ouroboros__stroke.white {
+	fill: none;
+	/*stroke: #9ea3a9 !important;*/
+	stroke: #52BC46;
+}
+
+/*//positional presets//*/
+.ouroboros__stroke.green{
+	stroke-dasharray: 20,15;
+	stroke-dashoffset: 15;
+}
+
+.ouroboros__stroke.purple{
+	stroke-dasharray: 17,8;
+	stroke-dashoffset: 13;
+}
+
+
+.ouroboros__stroke.white{
+	stroke-dasharray: 17,8;
+	stroke-dashoffset: 13;
+}
+
+/*
+/////////////////////////////////
+///////////transitions///////////
+/////////////////////////////////
+*/
+								  
+								  
+.ouroboros__stroke {
+	transition: stroke-dasharray 0.4s ease-in;
+	-ms-transition: stroke-dasharray 0.4s ease-in;
+	-moz-transition: stroke-dasharray 0.4s ease-in;
+	-webkit-transition: stroke-dasharray 0.4s ease-in;
+	transition: stroke-dashoffset 0.3s ease-in;
+	-ms-transition: stroke-dashoffset 0.3s ease-in;
+	-moz-transition: stroke-dashoffset 0.3s ease-in;
+	-webkit-transition: stroke-dashoffset 0.3s ease-in;
+}	

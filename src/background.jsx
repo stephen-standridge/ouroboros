@@ -1,6 +1,5 @@
 import './css/background_lines.css';
 import React from 'react';
-import USE from 'react-svg-use'
 
 const useTag = '<use xlink:href="#SVGID_1_" />';
 const BackgroundLines = React.createClass({

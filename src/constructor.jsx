@@ -1,12 +1,14 @@
 import BackgroundLines from './background.jsx'
+import Ouroboros from './ouroboros.jsx'
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const Ouroboros = React.createClass({
+const OuroborosPiece = React.createClass({
 	render(){
 		return(
-			<svg height={ this.props.height + 115 } width={this.props.width + 60}>
+			<svg height={ this.props.height + 115 } width={this.props.width + 100}>
 				<BackgroundLines {...this.props} />
+				<Ouroboros {...this.props} />				
 	  	</svg>
 		)
 	}
@@ -14,7 +16,7 @@ const Ouroboros = React.createClass({
 
 module.exports = function( configuration, targetID='ouroboros' ){
 	ReactDOM.render( 
-  	React.createElement( Ouroboros, configuration ), 
+  	React.createElement( OuroborosPiece, configuration ), 
 		document.getElementById(targetID) 
 	)
 }
