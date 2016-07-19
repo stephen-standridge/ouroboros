@@ -1,0 +1,126 @@
+/*
+ /////////////////////////////////
+ //////logo linework styles///////
+ /////////////////////////////////
+								  */	
+
+	/*//shared presets//*/
+	
+		.logolinefront{
+			stroke-width: 1;
+			opacity: .6;
+		}
+		.logolinemiddle{
+			stroke-width: 1;
+			opacity: .3;
+		}
+		.logolinebottom{
+			stroke-width: 1;
+			opacity: .3;
+		}
+		.logoline{
+			opacity: .6;
+			stroke-width: 1 ;
+		}
+		#linework {
+			opacity:1;
+		}
+
+
+	/*//color presets//*/
+	
+		.logoline.purple, .logolinefront.purple, .logolinemiddle.purple, .logolinebottom.purple, .compassline.purple{
+			fill: none;
+			stroke: #A745BF;
+		}
+		
+		.logoline.green, .logolinefront.green, .logolinemiddle.green, .logolinebottom.green, .compassline.green{
+			fill:none;
+			stroke:#52BC46;
+		}
+		.logoline.white, .logolinefront.white, .logolinemiddle.white, .logolinebottom.white, .compassline.white{
+			fill: none;
+			/*stroke: #9ea3a9 !important;*/
+			stroke: #52BC46;
+		}
+		.compassline{
+			stroke-width: .7;
+		}
+	
+	/*//positional presets//*/
+		.logoline.green{
+			stroke-dasharray: 20,15;
+			stroke-dashoffset: 15;
+		}
+		.logolinefront.green{
+			stroke-dasharray: 20,15;
+		}
+		.logolinemiddle.green{
+			stroke-dasharray: 15,10;
+			stroke-dashoffset: 23;
+		}
+		.logolinebottom.green{
+			stroke-dasharray: 15,10;
+			stroke-dashoffset: 27;
+		}
+		
+		
+		.logoline.purple{
+			stroke-dasharray: 17,8;
+			stroke-dashoffset: 13;
+		}
+		.logolinefront.purple{
+			stroke-dasharray: 19,6;
+		}
+		.logolinemiddle.purple{
+			stroke-dasharray: 26,8;
+			stroke-dashoffset: 7;
+		}
+		.logolinebottom.purple{
+			stroke-dasharray: 26,12;
+			stroke-dashoffset: 14;
+		}
+
+
+		.logoline.white{
+			stroke-dasharray: 17,8;
+			stroke-dashoffset: 13;
+		}
+		.logolinefront.white{
+			stroke-dasharray: 22,9;
+		}
+		.logolinemiddle.white{
+			stroke-dasharray: 12,10;
+			stroke-dashoffset: 8;
+		}
+		.logolinebottom.white{
+			stroke-dasharray: 20,12;
+			stroke-dashoffset: 11;
+		}	
+	
+			/*//he who must not be named//*/
+		.logocolor.white{
+			fill: #52BC46;
+			/*fill: #ffffff;*/
+			opacity: .3;
+		}
+		.logocolor.green{
+			fill: #52BC46;
+			opacity: .3;
+		}
+		.logocolor.purple{
+			fill: #A745BF;
+			opacity: .3;
+		}
+
+/*
+ /////////////////////////////////
+ ///////////transitions///////////
+ /////////////////////////////////
+								  */
+								  
+								  
+	.logoline, .logolinefront, .logolinemiddle, .logolinebottom{
+		transition: stroke-dasharray 0.4s ease-in;-ms-transition: stroke-dasharray 0.4s ease-in;-moz-transition: stroke-dasharray 0.4s ease-in;-webkit-transition: stroke-dasharray 0.4s ease-in;
+		transition: stroke-dashoffset 0.3s ease-in;-ms-transition: stroke-dashoffset 0.3s ease-in;-moz-transition: stroke-dashoffset 0.3s ease-in;-webkit-transition: stroke-dashoffset 0.3s ease-in;
+	}	
