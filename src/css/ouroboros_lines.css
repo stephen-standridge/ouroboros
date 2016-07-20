@@ -12,20 +12,20 @@
 	fill:none;
 }	
 .ouroboros__stroke--bold{
-	stroke:#9652A0;
 	stroke-width:1.5;
 	stroke-miterlimit:10;		
 }
 .ouroboros__stroke{
-	stroke:#9652A0;
 	stroke-width:1.0;
 	stroke-miterlimit:10;		
 }	
 .ouroboros__stroke--thin{
-	stroke:#9652A0;
 	stroke-width:0.5;
 	stroke-miterlimit:10;		
 }		
+.ouroboros__rotate{
+	transform-origin: 50% 50%;
+}
 
 /*
 /////////////////////////////////
@@ -42,39 +42,17 @@
 	-webkit-transition: stroke 0.3s ease-in;
 }	
 
-/*//color presets//*/
-
-.ouroboros__stroke.purple {
-	fill: none;
-	stroke: #A745BF;
-}
-
-.ouroboros__stroke.green {
-	fill:none;
-	stroke:#52BC46;
-}
-.ouroboros__stroke.white {
-	fill: none;
-	/*stroke: #9ea3a9 !important;*/
-	stroke: #52BC46;
-}
-
 /*//positional presets//*/
-.ouroboros__stroke.green{
+.dashed--alt{
 	stroke-dasharray: 20,15;
 	stroke-dashoffset: 15;
 }
 
-.ouroboros__stroke.purple{
+.dashed{
 	stroke-dasharray: 17,8;
 	stroke-dashoffset: 13;
 }
 
-
-.ouroboros__stroke.white{
-	stroke-dasharray: 17,8;
-	stroke-dashoffset: 13;
-}
 
 /*
 /////////////////////////////////

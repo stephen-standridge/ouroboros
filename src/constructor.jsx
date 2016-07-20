@@ -2,19 +2,37 @@ import BackgroundLines from './background.jsx'
 import Ouroboros from './ouroboros.jsx'
 import React from 'react';
 import ReactDOM from 'react-dom';
+import assign from 'object-assign';
 
 const OuroborosPiece = React.createClass({
+	getInitialState() {
+	    return assign({
+		    width: 0,
+		    height: 0,
+		    color: 'purple'
+	    }, this.props )
+	},
+	changeColor(){
+		let color = this.state.color == 'green' ? 'purple' : 'green';
+		return this.setState({ color })
+	},
 	render(){
+		let totalHeight = this.state.height + 115;
+		let totalWidth = this.state.width + 100;
 		return(
-			<svg height={ this.props.height + 115 } width={this.props.width + 100}>
-				<BackgroundLines {...this.props} 
-					colorClass={'green'} 
+			<svg height={totalHeight} width={totalWidth} onClick={this.changeColor}>
+				<BackgroundLines {...this.state} 
+					colorClass={this.state.color} 
 					outerClass={'outer'} 
 					innerClass={'inner'} 
 					middleClass={'middle'} 
 					patternClass={function(){return ''}}
 				/>
-				<Ouroboros {...this.props} />				
+				<Ouroboros {...this.state} 
+					colorClass={this.state.color}
+					strokeClass={''}
+					fillClass={''}
+				/>				
 	  	</svg>
 		)
 	}
