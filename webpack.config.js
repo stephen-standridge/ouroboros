@@ -1,5 +1,6 @@
 var path = require('path');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
+var autoprefixer = require('autoprefixer');
 
 module.exports = {
   watch: true,
@@ -12,7 +13,7 @@ module.exports = {
     { test: /\.css$/, 
       loader: ExtractTextPlugin.extract({
         notExtractLoader: "style-loader",
-        loader: "css-loader"
+        loader: "css-loader!postcss-loader"        
       }) 
     },    
     {
@@ -35,6 +36,7 @@ module.exports = {
   resolve: {
     extensions: ['', '.js', '.jsx', '.css']
   },
+  postcss: [ autoprefixer({ browsers: ['last 2 versions'] }) ],
   plugins: [
       new ExtractTextPlugin("styles.css")
   ],

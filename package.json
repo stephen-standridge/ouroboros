@@ -9,6 +9,7 @@
   "author": "Stephen Standridge <stephen@formisfunction.io> (formisfunction.io)",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^6.3.7",
     "babel-core": "^6.8.0",
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.9.0",
@@ -18,6 +19,7 @@
     "extract-text-webpack-plugin": "^2.0.0-beta.2",
     "lodash": "^4.12.0",
     "object-assign": "^4.1.0",
+    "postcss-loader": "^0.9.1",
     "random-set": "^1.1.3",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
