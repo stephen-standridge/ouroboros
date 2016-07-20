@@ -181,55 +181,73 @@
 */
 
 	/*//animation delays//*/
-	.background__line.inner:nth-child(1), .background__line.middle:nth-child(1),  .background__line.outer:nth-child(1),{
+	.background__line.inner:nth-child(1), 
+	.background__line.middle:nth-child(1),  
+	.background__line.outer:nth-child(1) {
 		animation-delay:.5s;
 		-webkit-animation-delay:.5s; 
 		-o-animation-delay:.5s;
 		-moz-animation-delay:.5s;
 	}
-	.background__line.inner:nth-child(2), .background__line.middle:nth-child(2),  .background__line.outer:nth-child(2){
+	.background__line.inner:nth-child(2), 
+	.background__line.middle:nth-child(2),  
+	.background__line.outer:nth-child(2) {
 		animation-delay:1s;
 		-webkit-animation-delay:1s; 
 		-o-animation-delay:1s;
 		-moz-animation-delay:1s;
 	}
-	.background__line.inner:nth-child(3), .background__line.middle:nth-child(3),  .background__line.outer:nth-child(3){
+	.background__line.inner:nth-child(3), 
+	.background__line.middle:nth-child(3),  
+	.background__line.outer:nth-child(3) {
 		animation-delay:1.5s;
 		-webkit-animation-delay:1.5s; 
 		-o-animation-delay:1.5s;
 		-moz-animation-delay:1.5s;
 	}
-	.background__line.inner:nth-child(4), .background__line.middle:nth-child(4),  .background__line.outer:nth-child(4){
+	.background__line.inner:nth-child(4), 
+	.background__line.middle:nth-child(4),  
+	.background__line.outer:nth-child(4) {
 		animation-delay:2s;
 		-webkit-animation-delay:2s; 
 		-o-animation-delay:2s;
 		-moz-animation-delay:2s;
 	}
-	.background__line.inner:nth-child(5), .background__line.middle:nth-child(5),  .background__line.outer:nth-child(5){
+	.background__line.inner:nth-child(5), 
+	.background__line.middle:nth-child(5),  
+	.background__line.outer:nth-child(5) {
 		animation-delay:2.5s;
 		-webkit-animation-delay:2.5s; 
 		-o-animation-delay:2.5s;
 		-moz-animation-delay:2.5s;
 	}
-	.background__line.inner:nth-child(6), .background__line.middle:nth-child(6),  .background__line.outer:nth-child(6){
+	.background__line.inner:nth-child(6), 
+	.background__line.middle:nth-child(6),  
+	.background__line.outer:nth-child(6) {
 		animation-delay:3s;
 		-webkit-animation-delay:3s; 
 		-o-animation-delay:3s;
 		-moz-animation-delay:3s;
 	}
-	.background__line.inner:nth-child(7), .background__line.middle:nth-child(7),  .background__line.outer:nth-child(7){
+	.background__line.inner:nth-child(7), 
+	.background__line.middle:nth-child(7),  
+	.background__line.outer:nth-child(7) {
 		animation-delay:3.5s;
 		-webkit-animation-delay:3.5s; 
 		-o-animation-delay:3.5s;
 		-moz-animation-delay:3.5s;
 	}
-	.background__line.inner:nth-child(8), .background__line.middle:nth-child(8),  .background__line.outer:nth-child(8){
+	.background__line.inner:nth-child(8), 
+	.background__line.middle:nth-child(8),  
+	.background__line.outer:nth-child(8) {
 		animation-delay:4s;
 		-webkit-animation-delay:4s; 
 		-o-animation-delay:4s;
 		-moz-animation-delay:4s;
 	}
-	.background__line.inner:nth-child(9), .background__line.middle:nth-child(9), .background__line.outer:nth-child(9){
+	.background__line.inner:nth-child(9), 
+	.background__line.middle:nth-child(9), 
+	.background__line.outer:nth-child(9) {
 		animation-delay:4.5s;
 		-webkit-animation-delay:4.5s; 
 		-o-animation-delay:4.5s;
