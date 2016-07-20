@@ -31,128 +31,59 @@
 /////default dynamic styles///////
 /////////////////////////////////
 */	
-	.background__line.inner.green {
+	.green{
+		stroke:#52BC46;		
+	}
+	.purple{
+		stroke:#A745BF;		
+	}
+
+	.background__line.inner {
 		opacity: 0.8; 
 		fill:none;
-		stroke:#52BC46;
 		stroke-miterlimit:10; 
 		stroke-width: 0.7; 
 		background-color: transparent;
 	}
-	.background__line.middle.green {
+	.background__line.middle {
 		opacity: 0.6; 
 		fill:none;
-		stroke:#52BC46;
 		stroke-miterlimit:10;
 		stroke-width: 0.7; background-color: transparent;
 	}
 
-	.background__line.outer.green {
+	.background__line.outer {
 		opacity: 0.4; 
 		fill:none;
-		stroke:#52BC46;
 		stroke-miterlimit:10;
 		stroke-width: 0.7; 
 		background-color: transparent; 
 	}
-
-
-	.background__line.inner.purple{
-		opacity: 0.8; 
-		fill:none;
-		stroke:#A745BF;
-		stroke-miterlimit:10;
-		stroke-width: 0.7; 
-		background-color: transparent;
-	}
-	.background__line.middle.purple{
-		opacity: 0.6; 
-		fill:none;
-		stroke:#A745BF;
-		stroke-miterlimit:10;
-		stroke-width: 0.7; 
-		background-color: transparent;
-	}
-	.background__line.outer.purple {
-		opacity: 0.4; 
-		fill:none;
-		stroke:#A745BF;
-		stroke-miterlimit:10;
-		stroke-width: 0.7; 
-		background-color: transparent; 
-	}
-
-	.background__line.inner.white {
-		opacity: 1 !important; 
-		fill:none;
-		stroke:#c1c7d0 !important; 
-		stroke-miterlimit:10;
-		stroke-width: 0.5 !important; 
-		background-color: transparent;
-	}
-	.background__line.middle.white {
-		opacity: 1 !important; 
-		fill:none;
-		stroke: #9ea3a9 !important;
-		stroke-miterlimit:10;
-		stroke-width: 0.5 !important; 
-		background-color: transparent;
-	}
-	.background__line.outer.white {
-		opacity: 1 !important; 
-		fill:none;
-		stroke:#5b5d5f !important;
-		stroke-miterlimit:10;
-		stroke-width: 0.5 !important; 
-		background-color: transparent; 
-	}
-
 
 /*
 /////////////////////////////////
 ////main animation references////
 /////////////////////////////////
 */
-	/*//white styles//*/	
-		
-	.background__line.white.outer {
-		animation:backgroundlines_white_outer 10s linear infinite;
-		-moz-animation:backgroundlines_white_outer 10s linear infinites; 
-		-webkit-animation:backgroundlines_white_outer 10s linear infinite;
-		-o-animation:backgroundlines_white_outer 10s linear infinite;
-	}
-	.background__line.white.middle {
-		animation:backgroundlines_white_middle 10s linear infinite;
-		-moz-animation:backgroundlines_white_middle 10s linear infinite;
-		-webkit-animation:backgroundlines_white_middle 10s linear infinite;
-		-o-animation:backgroundlines_white_middle 10s linear infinite;
-	}
-	.background__line.white.inner {
-		animation:backgroundlines_white_inner 10s linear infinite;
-		-moz-animation:backgroundlines_white_inner 10s linear infinite;
-		-webkit-animation:backgroundlines_white_inner 10s linear infinite;
-		-o-animation:backgroundlines_white_inner 10s linear infinite;
-	}
-
 	/*//background lines//*/
 		
-	.background__line.outer.green, .background__line.outer.purple {
-		animation:backgroundlines_outer_green 10s linear infinite;
-		-moz-animation:backgroundlines_outer_green 10s linear infinites; 
-		-webkit-animation:backgroundlines_outer_green 10s linear infinite;
-		-o-animation:backgroundlines_outer_green 10s linear infinite;
+	.background__line.outer {
+		animation:backgroundlines_outer 10s linear infinite;
+		-moz-animation:backgroundlines_outer 10s linear infinites; 
+		-webkit-animation:backgroundlines_outer 10s linear infinite;
+		-o-animation:backgroundlines_outer 10s linear infinite;
 	}
-	.background__line.middle.green, .background__line.middle.purple {
-		animation:backgroundlines_middle_green 10s linear infinite;
-		-moz-animation:backgroundlines_middle_green 10s linear infinite;
-		-webkit-animation:backgroundlines_middle_green 10s linear infinite;
-		-o-animation:backgroundlines_middle_green 10s linear infinite;
+	.background__line.middle {
+		animation:backgroundlines_middle 10s linear infinite;
+		-moz-animation:backgroundlines_middle 10s linear infinite;
+		-webkit-animation:backgroundlines_middle 10s linear infinite;
+		-o-animation:backgroundlines_middle 10s linear infinite;
 	}
-	.background__line.inner.green, .background__line.inner.purple {
-		animation:backgroundlines_inner_green 10s linear infinite;
-		-moz-animation:backgroundlines_inner_green 10s linear infinite;
-		-webkit-animation:backgroundlines_inner_green 10s linear infinite;
-		-o-animation:backgroundlines_inner_green 10s linear infinite;
+	.background__line.inner {
+		animation:backgroundlines_inner 10s linear infinite;
+		-moz-animation:backgroundlines_inner 10s linear infinite;
+		-webkit-animation:backgroundlines_inner 10s linear infinite;
+		-o-animation:backgroundlines_inner 10s linear infinite;
 	}
 
 
@@ -263,137 +194,68 @@
 */	
 	/*//green and purple//*/
 	
-	@keyframes backgroundlines_outer_green {
+	@keyframes backgroundlines_outer {
 		0%,100%   {opacity: .8;} 
 		25%			  {opacity: .6;} 
 		75%			  {opacity: .4;}
 	}
-	@-moz-keyframes backgroundlines_outer_green {
+	@-moz-keyframes backgroundlines_outer {
 		0%,100%   {opacity: .8;} 
 		25%			  {opacity: .6;} 
 		75%			  {opacity: .4;}
 	}
-	@-webkit-keyframes backgroundlines_outer_green{å
+	@-webkit-keyframes backgroundlines_outer{
 		0%,100%   {opacity: .8;} 
 		25%			  {opacity: .6;} 
 		75%			  {opacity: .4;}
 	}
-	@-o-keyframes backgroundlines_outer_green {
+	@-o-keyframes backgroundlines_outer {
 		0%,100%   {opacity: .8;} 
 		25%			  {opacity: .6;} 
 		75%			  {opacity: .4;}
 	}
 
 
-	@keyframes backgroundlines_middle_green{
+	@keyframes backgroundlines_middle{
 		0%,100%   {opacity: .6;}
 		25%			  {opacity: .8;}
 		75%			  {opacity: .4;}
 	}
-	@-moz-keyframes backgroundlines_middle_green {
+	@-moz-keyframes backgroundlines_middle {
 		0%,100%   {opacity: .6;}
 		25%			  {opacity: .8;}
 		75%			  {opacity: .4;}
 	}
-	@-webkit-keyframes backgroundlines_middle_green {
+	@-webkit-keyframes backgroundlines_middle {
 		0%,100%   {opacity: .6;}
 		25%			  {opacity: .8;}
 		75%			  {opacity: .4;}
 	}
-	@-o-keyframes backgroundlines_middle_green {
+	@-o-keyframes backgroundlines_middle {
 		0%,100%   {opacity: .6;}
 		25%			  {opacity: .8;}
 		75%			  {opacity: .4;}
 	}
 
 
-	@keyframes backgroundlines_inner_green{
+	@keyframes backgroundlines_inner{
 		0%,100%   {opacity: .4;}
 		25%			  {opacity: .6;}
 		75%			  {opacity: .8;}
 	}
-	@-moz-keyframes backgroundlines_inner_green {
+	@-moz-keyframes backgroundlines_inner {
 		0%,100%   {opacity: .4;}
 		25%			  {opacity: .6;}
 		75%			  {opacity: .8;}
 	}
-	@-webkit-keyframes backgroundlines_inner_green {
+	@-webkit-keyframes backgroundlines_inner {
 		0%,100%   {opacity: .4;}
 		25%			  {opacity: .6;}
 		75%			  {opacity: .8;}
 	}
-	@-o-keyframes backgroundlines_inner_green {
+	@-o-keyframes backgroundlines_inner {
 		0%,100%   {opacity: .4;}
 		25%			  {opacity: .6;}
 		75%			  {opacity: .8;}
 	}
-	
-	
-	
-	
-	@keyframes backgroundlines_white_outer{
-		0%,100%   {stroke:#5b5d5f;}
-		25%			  {stroke:#c1c7d0;}
-		75%			  {stroke:#9ea3a9;}
-	}
-	@-moz-keyframes backgroundlines_white_outer {
-		0%,100%   {stroke:#5b5d5f;}
-		25%			  {stroke:#c1c7d0;}
-		75%			  {stroke:#9ea3a9;}
-	}
-	@-webkit-keyframes backgroundlines_white_outer {
-		0%,100%   {stroke:#5b5d5f;}
-		25%			  {stroke:#c1c7d0;}
-		75%			  {stroke:#9ea3a9;}
-	}
-	@-o-keyframes backgroundlines_white_outer {
-		0%,100%   {stroke:#5b5d5f;}
-		25%			  {stroke:#c1c7d0;}
-		75%			  {stroke:#9ea3a9;}
-	}
-
-
-	@keyframes backgroundlines_white_middle{
-		0%,100%   {stroke:#c1c7d0;}
-		25%  			{stroke:#5b5d5f;}
-		75%  			{stroke:#9ea3a9;}
-	}
-	@-moz-keyframes backgroundlines_white_middle {
-		0%,100%   {stroke:#c1c7d0;}
-		25%  			{stroke:#5b5d5f;}
-		75%  			{stroke:#9ea3a9;}
-	}
-	@-webkit-keyframes backgroundlines_white_middle {
-		0%,100%   {stroke:#c1c7d0;}
-		25%  			{stroke:#5b5d5f;}
-		75%  			{stroke:#9ea3a9;}
-	}
-	@-o-keyframes backgroundlines_white_middle {
-		0%,100%   {stroke:#c1c7d0;}
-		25%  			{stroke:#5b5d5f;}
-		75%  			{stroke:#9ea3a9;}
-	}
-
-
-	@keyframes backgroundlines_white_inner{
-		0%,100%   {stroke:#9ea3a9;}
-		25%  			{stroke:#c1c7d0;}
-		75%  			{stroke:#5b5d5f;}
-	}
-	@-moz-keyframes backgroundlines_white_inner {
-		0%,100%   {stroke:#9ea3a9;}
-		25%  			{stroke:#c1c7d0;}
-		75%  			{stroke:#5b5d5f;}
-	}
-	@-webkit-keyframes backgroundlines_white_inner {
-		0%,100%   {stroke:#9ea3a9;}
-		25%  			{stroke:#c1c7d0;}
-		75%  			{stroke:#5b5d5f;}
-	}
-	@-o-keyframes backgroundlines_white_inner {
-		0%,100%   {stroke:#9ea3a9;}
-		25%  			{stroke:#c1c7d0;}
-		75%  			{stroke:#5b5d5f;}
-	}
-				
 	

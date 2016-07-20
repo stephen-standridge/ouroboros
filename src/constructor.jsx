@@ -7,7 +7,13 @@ const OuroborosPiece = React.createClass({
 	render(){
 		return(
 			<svg height={ this.props.height + 115 } width={this.props.width + 100}>
-				<BackgroundLines {...this.props} />
+				<BackgroundLines {...this.props} 
+					colorClass={'green'} 
+					outerClass={'outer'} 
+					innerClass={'inner'} 
+					middleClass={'middle'} 
+					patternClass={function(){return ''}}
+				/>
 				<Ouroboros {...this.props} />				
 	  	</svg>
 		)
