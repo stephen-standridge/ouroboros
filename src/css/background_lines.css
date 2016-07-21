@@ -4,7 +4,7 @@
 /////////////////////////////////
 */		
 	.background__line{
-		clip-path:url(#SVGID_2_);
+		clip-path:url(#background__clip);
 		fill:none;
 		stroke:#9652A0;
 		stroke-width:0.5;

@@ -1,22 +1,24 @@
 import './css/background_lines.css';
 import React from 'react';
 
-const useTag = '<use xlink:href="#SVGID_1_" />';
-const BackgroundLines = React.createClass({
+const useTag = '<use xlink:href="#background__shape" />';
+const BackgroundLines = React.createClass({	
 	render(){
 		let middleClass = this.props.middleClass;
 		let outerClass = this.props.outerClass;
 		let innerClass = this.props.innerClass;
 		let colorClass = this.props.colorClass;
+		let hoverXClass = this.props.hoverXClass;
+		let hoverYClass = this.props.hoverYClass;
 
 		return(
 			<g>
 				<defs>
-					<rect id="SVGID_1_" x="56.7" y="29.1" width={this.props.width} height={this.props.height}/>
+					<rect id="background__shape" x="56.7" y="29.1" width={this.props.width} height={this.props.height}/>
 				</defs>
-				<g className={`background__border ${colorClass}`} dangerouslySetInnerHTML={{__html: useTag }}>
+				<g className={`background__border ${colorClass} ${hoverXClass} {hoverYClass}`} dangerouslySetInnerHTML={{__html: useTag }}>
 				</g>									
-				<clipPath id="SVGID_2_" dangerouslySetInnerHTML={{__html: useTag }}>
+				<clipPath id="background__clip" dangerouslySetInnerHTML={{__html: useTag }}>
 				</clipPath>	
 
 				<path id="bg1" 

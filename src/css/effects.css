@@ -1,7 +1,7 @@
 .effects__stroke{
 	fill: none;
 	transition: stroke .2s;
-	animation-duration: .3s;
+	animation-duration: .1s;
 	transition: opacity .2s;
 }
 .effects__stroke--5{
