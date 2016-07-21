@@ -1,4 +1,5 @@
 import BackgroundLines from './background.jsx'
+import Effects from './effects.jsx'
 import Ouroboros from './ouroboros.jsx'
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -28,6 +29,8 @@ const OuroborosPiece = React.createClass({
 					middleClass={'middle'} 
 					patternClass={function(){return ''}}
 				/>
+				<Effects {...this.state} 
+					colorClass={this.state.color} />				
 				<Ouroboros {...this.state} 
 					colorClass={this.state.color}
 					strokeClass={''}

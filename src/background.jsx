@@ -15,9 +15,7 @@ const BackgroundLines = React.createClass({
 					<rect id="SVGID_1_" x="56.7" y="29.1" width={this.props.width} height={this.props.height}/>
 				</defs>
 				<g className={`background__border ${colorClass}`} dangerouslySetInnerHTML={{__html: useTag }}>
-				</g>		
-				<g className={`background__border ouroboros__stroke-animation--bold ${colorClass}`} dangerouslySetInnerHTML={{__html: useTag }}>
-				</g>								
+				</g>									
 				<clipPath id="SVGID_2_" dangerouslySetInnerHTML={{__html: useTag }}>
 				</clipPath>	
 
